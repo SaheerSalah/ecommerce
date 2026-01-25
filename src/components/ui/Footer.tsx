@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-50 text-gray-600 border-t border-gray-200">
       {/* القسم العلوي */}
-      <Container py="py-12" px="px-4 md:px-6" grid={true} gap="12" className="grid-cols-6">
+      <Container py="py-12" px="px-4 md:px-6" grid={true} gap="12" className="md:grid-cols-6 grid-cols-1">
         
         {/* معلومات الاتصال */}
         <div className="col-span-2 min-w-[250px] mr-10 border-r border-gray-300">

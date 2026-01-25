@@ -5,7 +5,7 @@ interface LogoProps {
   height?: number;
   className?: string;
 }
-export default function Logo({ width = 200, height = 200, className }: LogoProps) {
+export default function Logo({ width = 200, height = 40, className }: LogoProps) {
   return (
     <div className={className}>
       <Image
